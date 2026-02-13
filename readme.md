@@ -1,6 +1,6 @@
 # Replication Package
 
-This repository accompanies the paper **"Building smart agents faster: A low-code approach for the automatic personalization of conversational agents"**. It provides everything needed to reproduce the web-based tooling, generated agents, and user study described in the publication.
+This repository accompanies the paper **"A low-code approach for the automatic personalization of conversational agents"**. It provides everything needed to reproduce the web-based tooling, generated agents, and user study described in the publication.
 
 The material is organized into two main parts:
 
