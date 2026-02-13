@@ -1,5 +1,13 @@
 # Demo - Run Instructions
 
+## Upstream repositories
+This demo contains copied code from the original repositories to preserve the exact example used in the paper.
+The upstream projects may evolve over time, so behavior and structure can change in the future.
+
+- https://github.com/BESSER-PEARL/BESSER-Agentic-Framework
+- https://github.com/BESSER-PEARL/BESSER
+- https://github.com/BESSER-PEARL/BESSER-Web-Modeling-Editor
+
 ## Requirements
 - Docker (Docker Desktop / Docker Engine with Compose support)
 
@@ -46,6 +54,9 @@ docker compose down
 ## Run agents
 Agent execution requires Python 3.12.
 
+We also provide an already generated personalized agent result (from correctly following the study instructions) in `agent_output/`.
+The runnable file is `agent_output/Agent_Diagram.py`.
+
 You can follow the study instructions to generate a personalized agent.
 
 After generation, multiple files are downloaded in a zip. As described in the instructions, run the file `Agent_Diagram.py`.
@@ -60,6 +71,8 @@ pip install .
 ```
 
 Also make sure to add your OpenAI key to `config.ini` before running the agent.
+
+For the provided pre-generated agent in `agent_output/`, `config.ini` already contains the correct database configuration. You only need to add your OpenAI API key.
 
 In addition, adapt the database values in `config.ini` for monitoring and streamlit.
 Use the same database credentials as in `docker-compose.yml`:
