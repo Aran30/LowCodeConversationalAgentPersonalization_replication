@@ -41,3 +41,19 @@ In the same folder:
 ```bash
 docker compose down
 ```
+
+## Run agents
+You can follow the study instructions to generate a personalized agent.
+
+After generation, multiple files are downloaded in a zip. As described in the instructions, run the file `Agent_Diagram.py`.
+
+Before running `Agent_Diagram.py`, install BESSER Agentic Framework locally:
+
+1. Navigate to [BESSER-AGENTIC-FRAMEWORK](BESSER-AGENTIC-FRAMEWORK).
+2. Run:
+
+```bash
+pip install .
+```
+
+Also make sure to add your OpenAI key to `config.ini` before running the agent.
